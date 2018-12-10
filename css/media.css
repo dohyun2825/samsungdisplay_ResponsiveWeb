@@ -1,0 +1,136 @@
+@media screen and (max-width: 768px){
+    body{
+        max-width: auto;
+        width: 100%;
+    }
+    
+    #header{
+        width: 100%;
+        height: 36px;
+        background: url("../common/bg_top.gif") repeat-x;
+    }
+    
+    .headerIn{
+        width: 100%;
+    }
+    
+    .gnb{
+        
+    }
+    
+    .gnb ul li{
+        background: #555555;
+        float: left;
+        width: 20%;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+        text-align: center;
+        box-sizing: border-box;
+        display: block;
+        margin-top: 16px;
+    }
+    
+    .gnb ul li a{
+        color: #c9c9c9;
+        display: block;
+        background: url(../common/bg_gnb.gif) 100% 0 no-repeat;
+        font-size: 12px;
+        padding-right: 0;
+    }
+    
+    .lnb{
+        display: none;
+    }
+    
+    .lnb li{
+        display: none;
+    }
+    
+    .gnb ul li:hover .lnb{
+        display: none;
+    }
+    
+    .utill{
+        display: none;
+    }
+    
+    .logo{
+        background: url("../main/logo.gif") no-repeat;
+        background-size: 134px 20px;
+        width: 134px;
+        height: 20px;
+        position: absolute;
+        top: 9px;
+        left: 10px;
+    }
+    
+    .logo img{
+        display: none;
+    }
+    
+    .pannel{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #333399;
+        width: 10%;
+        height: 36px;
+    }
+    
+    .pannel a{
+        
+    }
+    
+    .pannel a span{
+        width: 20px;
+        height: 2px;
+        background: #fff;
+        display: block;
+        text-indent: -9999px;
+        margin: 0 auto;
+    }
+    
+    .pannel a:before, .pannel a:after{
+        content: "";
+        width: 20px;
+        height: 2px;
+        background: #fff;
+        display: block;
+        margin: 5px auto;
+    }
+    
+    .pannel a:before{
+        margin-top: 10px;
+    }
+    
+    .container{
+        width: 100%;
+    }
+    
+    .bar{
+        width: 100%;
+    }
+    
+    .mainRow1Wrap{
+        width: 100%;
+    }
+    
+    .mainRow2Wrap{
+        width: 100%;
+    }
+    
+    .mainRow3Wrap{
+        width: 100%;
+    }
+    
+    .footerIn{
+        width: 100%;
+    }
+    
+    .footerInfo{
+        width: 80%;
+    }
+    
+}
